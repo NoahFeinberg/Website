@@ -1,0 +1,143 @@
+/*
+    Style for the home page
+*/
+.galaxy{
+    width: 4000px;
+    height:100%;
+    right: 0px;
+    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
+    animation: universe 10s linear infinite;
+
+}
+
+@keyframes universe {
+    100% {
+        transform: translateX(50%);
+    }
+}
+.circle{
+    position: absolute;
+    top:500px;
+    left: 200px;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border: thin solid blue;
+    box-shadow: 0 0 15px lightskyblue;
+    overflow: hidden;
+    background-clip: padding-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+}
+.earth{
+    overflow: hidden;
+    height: 300px;
+    clip-path: circle(150px at center);
+}
+.rotate{
+    overflow: hidden;
+    animation: world 10s linear infinite;
+}
+@keyframes world {
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.box{
+    position: absolute;
+    width: 100%;
+    height: 10000px;
+}
+
+
+#about{
+    width:100%;
+    height: 75px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 40px;
+    background-color: #141952;
+}
+#internships{
+    width:100%;
+    height: 75px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 50px;
+    background-color: #141952;
+}
+
+#portrait{
+    padding-left: 35%;
+    padding-top: 70px;
+}
+
+#aboutIntroduction{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    align-content: center;
+    padding: 55px 5% 30px 15%;
+    color: #141952;
+}
+
+
+#aboutIntroductionBody{
+    font-family: "Arial","sans-serif";
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 150%;
+    width: 50%;
+    padding-left: 20%;
+    color: #1A237E;
+}
+#subjectBox{
+    margin: auto;
+    padding-top: 50px;
+    width:60%;
+
+}
+.context{
+    float: left;
+    height: 174px;
+    width: 225px;
+    padding: 20px 0px 7px 20px;
+    border-right: 2px ridge #424242;
+}
+.body{
+    font-family: "Arial","sans-serif";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #1A237E;
+    padding: 30px 60px 30px 274px;
+}
+#NASA{
+    background-color: aliceblue;
+    height: 200px;
+    width: 1000px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 5px #424242;
+
+}
+
+#cv{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    align-content: center;
+    padding: 25px 5% 70px 5%;
+    color: #141952;
+}
