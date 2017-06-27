@@ -20,7 +20,7 @@
 .circle{
     position: absolute;
     top:500px;
-    left: 200px;
+    left: 400px;
     height:300px;
     width:300px;
     border-radius: 50%;
@@ -79,8 +79,8 @@
 }
 
 #portrait{
-    padding-left: 35%;
-    padding-top: 70px;
+    padding-left: 980px;
+    padding-top: 50px;
 }
 
 #aboutIntroduction{
@@ -99,7 +99,7 @@
     font-weight: 700;
     text-align: center;
     line-height: 150%;
-    width: 50%;
+    width: 1150px;
     padding-left: 20%;
     color: #1A237E;
 }

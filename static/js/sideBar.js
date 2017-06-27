@@ -18,18 +18,3 @@ $('div.infoBar table tr').click(function(){
     $(this).addClass('selected');
 });
 
-/*
- Switches to the Intoduction page
- */
-$('#introduction').click(function(){
-    $('#main').empty();
-    $('#main').load('introduction.html')
-});
-
-/*
- Switches to the Home page
- */
-$('.max').click(function(){
-    $('#main').empty();
-    $('#main').load('home.html')
-});
