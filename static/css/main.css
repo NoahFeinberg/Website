@@ -1,93 +1,18 @@
 /*
     Style for the home page
 */
-.galaxy{
-    width: 4000px;
-    height:100%;
-    right: 0px;
-    margin: 0 auto;
-    position: absolute;
-    overflow: hidden;
-    animation: universe 10s linear infinite;
-
-}
-
-@keyframes universe {
-    100% {
-        transform: translateX(50%);
-    }
-}
-.circle{
-    position: absolute;
-    top:500px;
-    left: 400px;
-    height:300px;
-    width:300px;
-    border-radius: 50%;
-    border: thin solid blue;
-    box-shadow: 0 0 15px lightskyblue;
-    overflow: hidden;
-    background-clip: padding-box;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding;
-}
-.earth{
-    overflow: hidden;
-    height: 300px;
-    clip-path: circle(150px at center);
-}
-.rotate{
-    overflow: hidden;
-    animation: world 10s linear infinite;
-}
-@keyframes world {
-    100% {
-        transform: translateX(-50%);
-    }
-}
 
 .box{
     position: absolute;
     width: 100%;
-    height: 10000px;
-}
-
-
-#about{
-    width:100%;
-    height: 75px;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 12%;
-    padding-top: 40px;
-    background-color: #141952;
-}
-#internships{
-    width:100%;
-    height: 75px;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 12%;
-    padding-top: 50px;
-    background-color: #141952;
-}
-
-#portrait{
-    padding-left: 980px;
-    padding-top: 50px;
+    height: 2100px;
 }
 
 #aboutIntroduction{
     font-family: "Roboto", sans-serif;
-    font-size: 24px;
+    font-size: 200%;
     font-weight: 700;
-    align-content: center;
+    align-content: left;
     padding: 55px 5% 30px 15%;
     color: #141952;
 }
@@ -95,49 +20,88 @@
 
 #aboutIntroductionBody{
     font-family: "Arial","sans-serif";
-    font-size: 26px;
+    font-size: 175%;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     line-height: 150%;
-    width: 1150px;
+    width: 60%;
     padding-left: 20%;
     color: #1A237E;
 }
-#subjectBox{
+
+
+
+
+#portrait{
+    height: 10%;
+    width: auto;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+
+#resume{
+    font-family: "Roboto", sans-serif;
+    font-size: 200%;
+    font-weight: lighter;
+    padding-left: 10%;
+    color: #141952;
+}
+#experience{
     margin: auto;
     padding-top: 50px;
     width:60%;
 
 }
-.context{
-    float: left;
-    height: 174px;
-    width: 225px;
-    padding: 20px 0px 7px 20px;
-    border-right: 2px ridge #424242;
-}
+ 
 .body{
     font-family: "Arial","sans-serif";
-    font-size: 14px;
+    font-size: 100%;
     font-weight: 700;
     line-height: 150%;
     color: #1A237E;
-    padding: 30px 60px 30px 274px;
+    padding: 5% 10% 5% 30%;
 }
-#NASA{
+
+#fulcrum{
     background-color: aliceblue;
-    height: 200px;
-    width: 1000px;
-    margin-bottom: 60px;
+    width: 90%;
+    margin-bottom: 10%;
     box-shadow: 10px 10px 5px #424242;
 
 }
 
-#cv{
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
-    align-content: center;
-    padding: 25px 5% 70px 5%;
-    color: #141952;
+#northshore{
+    background-color: aliceblue;
+    width: 90%;
+    margin-bottom: 10%;
+    box-shadow: 10px 10px 5px #424242;
+
 }
+#image{
+    position: absolute;
+    float:left;
+    width: 10%;
+    height: auto;
+    background-color: #0c3e5e;
+}
+
+.context{
+
+    height: 80%;
+    width: 25%;
+    padding: 5% 0% 1% 5%;
+}
+
+#bottom{
+    background-color: #8CBED6;
+    color: white;
+    height: 5%;
+    font-family: "Arial","sans-serif";
+    font-size: 100%;
+    font-weight: 525;
+    line-height: 100%;
+    color: #1A237E;
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
